@@ -1,0 +1,29 @@
+[
+    "index.md",
+    [
+        "introduction.md",
+        "talkify.md"
+    ],
+    "a-quick-check.md",
+    "learning-objectives.md",
+    [
+        "anatomy-of-a-chat-bot.md",
+        "anatomy-high-level.md",
+        "anatomy-context.md",
+        "anatomy-classification.md",
+        "anatomy-skill.md"
+    ],
+    [
+        "sidekick.md",
+        "sidekick-init-project.md",
+        "sidekick-install-talkify.md",
+        "sidekick-configure-talkify.md",
+        "sidekick-train-it.md",
+        "sidekick-define-knock-knock-skill.md",
+        "sidekick-define-chuck-norris-skill.md",
+        "sidekick-add-skill-to-bot.md",
+        "sidekick-export-bot.md",
+        "sidekick-add-cli-interface.md",
+        "sidekick-run.md"
+    ]
+]
