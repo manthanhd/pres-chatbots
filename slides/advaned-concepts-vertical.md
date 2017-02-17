@@ -44,7 +44,7 @@ Could get costly when using it with external services like IBM Watson.
 
 *When having multiple serial classifiers isn't enough*
 
-<img src="/resources/classification-graph.png" style="border: none; box-shadow: none;"/>
+<img src="/resources/classification-graph.png" style="background: none; border: none; box-shadow: none;"/>
 
 Note:
 Scalability is always a problem in tech. Not many disciplines have this issue.
@@ -61,7 +61,7 @@ DFS (quicker, potentially less accurate) vs BFS (slower, potentially more accura
 
 *Topic focused vs description focused*
 
-<img src="/resources/additive-classification.png" style="border: none; box-shadow: none;"/>
+<img src="/resources/additive-classification.png" style="background: none; border: none; box-shadow: none;"/>
 
 Note:
 Selective: 'Best match'

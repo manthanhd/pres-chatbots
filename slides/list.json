@@ -26,6 +26,10 @@
         "sidekick-add-cli-interface.md",
         "sidekick-run.md"
     ],
-    ["advaned-concepts-title.md",
-    "advaned-concepts-vertical.md"]
+    [
+        "advaned-concepts-title.md",
+        "advaned-concepts-vertical.md"
+    ],
+    ["end.md",
+    "end-vertical.md"]
 ]
