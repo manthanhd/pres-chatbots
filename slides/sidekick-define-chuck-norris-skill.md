@@ -10,7 +10,14 @@ Define skill
 
 ```javascript
 const cnApi = require('chuck-norris-api');
-const kJokeSkill = new Skill('my_knock_knock_joke_skill', 'knock_joke', function (context, request, response) {
-    return response.send(new SingleLineMessage(knockKnockJokes()));
+const cJokeSkill = new Skill(
+  'my_chuck_norris_joke_skill',
+  'chuck_norris_joke',
+  function(context, request, response) {
+    return cnApi.getRandom(
+      {exclude: ['explicit']}
+    ).then(function(data) {
+        return response.send(new SingleLineMessage(data.value.joke));
+    });
 });
 ```
